@@ -14,17 +14,12 @@
     <form method="post">
       <div class="col-md-12">
         <label>
-          <div>Subject</div>
-          <input type="text" name="subject" value="{{subject}}" />
-        </label>
-      </div>
-      <div class="col-md-12">
-        <label>
           <div>Content</div>
           <textarea name="content">{{content}}</textarea>
         </label>
-        <div class="error">{{error}}</div>
-        <input type="submit" />
+        <div class="error" style="color:red">{{error}}</div>
+        <input type="submit" name="submit" />
+        <input type="submit" name="cancel" value="cancel" />
       </div>
     </form>
   </div>

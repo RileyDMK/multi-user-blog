@@ -6,7 +6,7 @@
   {% endif %}
   {% if author %}
     <li><a href="/logout">Logout</a></li>
-    <li><a href='/blog/newpost'>New Post</a></li>
+    <li><a href="/blog/newpost">New Post</a></li>
   {% endif %}
 {% endblock %}
 {% block html %}
@@ -23,10 +23,10 @@
           <div>Content</div>
           <textarea name="content">{{content}}</textarea>
         </label>
+        <div class="error" style="color:red">{{error}}</div>
+        <input type="submit" name="submit" />
+        <input type="submit" name="cancel" value="cancel" />
       </div>
-      <div class="error" style="color:red">{{error}}</div>
-      <input type="submit" name="submit" />
-      <input type="submit" name="cancel" value="cancel" />
     </form>
   </div>
 {% endblock %}
