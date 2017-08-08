@@ -2,7 +2,7 @@
 
 This is a multi-user blog web application that uses Python and Google App Engine along with Jinja templates to produce its functionality. This is the third project for the Udacity Full Stack Web Development course.
 
-## Run
+# Run
 To run locally:
 
 You will need to install the [Google Cloud SDK](https://cloud.google.com/appengine/docs/python/download) to run Google App Engine Python applications locally.
